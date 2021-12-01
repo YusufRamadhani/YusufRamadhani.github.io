@@ -902,6 +902,14 @@
 		white-space: nowrap;
 	}
 
+	.button.rounded {
+		border-radius: 12px;
+	}
+
+	.button.uniform {
+		width: 80%;
+	}
+
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
@@ -1170,7 +1178,7 @@
 
 	#footer {
 		min-height: 100vh;
-		padding: 0 0 12em 0;
+		padding: 0 0 10em 0;
 		position: relative;
 		text-align: center;
 	}
